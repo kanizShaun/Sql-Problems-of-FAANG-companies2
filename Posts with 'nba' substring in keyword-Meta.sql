@@ -1,0 +1,1 @@
+select * from facebook_posts where post_keywords like '%nba%'

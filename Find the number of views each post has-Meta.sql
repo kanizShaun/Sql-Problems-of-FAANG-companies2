@@ -1,0 +1,1 @@
+select post_id,count(viewer_id) from facebook_post_views group by post_id order by post_id asc

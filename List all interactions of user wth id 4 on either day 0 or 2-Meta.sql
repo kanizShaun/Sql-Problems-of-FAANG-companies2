@@ -1,0 +1,1 @@
+select * from facebook_user_interactions where user1 = 4 or user2 = 4 and  day = 0 or day = 2

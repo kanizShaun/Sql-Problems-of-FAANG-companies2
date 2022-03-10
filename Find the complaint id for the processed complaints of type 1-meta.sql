@@ -1,0 +1,1 @@
+select * from facebook_complaints where type = 1 and processed = 'TRUE'

@@ -1,0 +1,1 @@
+Find the number of processed and not-processed complaints of each type
