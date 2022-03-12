@@ -1,0 +1,2 @@
+select count(p.*) from (select a.*, (a.month + a.blocked_duration) as total  from (select *,extract(month from block_date) as month ,block_duration/30 as blocked_duration
+from fb_blocked_users )a)p  where p.month = 12 or p.block_duration is null or p.total >= 12

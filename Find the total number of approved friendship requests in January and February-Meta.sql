@@ -1,0 +1,1 @@
+select count(a.*) from (select *, extract(month from date_approved) as month from facebook_friendship_requests)a where a.month = 1 or a.month = 2

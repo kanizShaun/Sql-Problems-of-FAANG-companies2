@@ -1,0 +1,1 @@
+select text from facebook_messages_sent where text like '%User 2%' or text like '%User 3%'

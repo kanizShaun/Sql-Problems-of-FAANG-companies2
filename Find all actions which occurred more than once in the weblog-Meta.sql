@@ -1,0 +1,1 @@
+select action from facebook_web_log  group by action having count(action) > 1
